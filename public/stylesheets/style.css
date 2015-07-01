@@ -25,6 +25,7 @@ footer {
 	clear: both;
 	padding-top: 10px;
 	margin-top: 10px;
+    overflow: auto;
 }
 #contenedor {
 	background: #ECEFF1;
@@ -38,4 +39,7 @@ footer {
 .respuesta{
     font-size: 16px;
 	font-weight: bold;
+}
+.github {
+    float: right;
 }

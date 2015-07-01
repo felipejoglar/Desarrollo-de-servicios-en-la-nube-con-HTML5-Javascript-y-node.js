@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Quiz MiriadaX</title>
+        <link rel='stylesheet' type='text/css' href='/stylesheets/style.css' />
+        <link rel='stylesheet' type='text/css' href='/stylesheets/material_buttons.css' />
+    </head>
+    <body>
+        <div id='contenedor'>
+            <header>
+                <h1>Quiz MiriadaX: el juego de las preguntas.</h1>
+            </header>
+
+            <nav role="navigation">
+                <a href="/"><div class="button raised bluegrey">INICIO</div></a>
+                <a href="/quizes/question"><div class="button raised bluegrey">COMIENCE A JUGAR</div></a>
+            </nav>
+
+            <section>
+                <%- body %>
+            </section>
+
+            <footer>
+                <img src='/images/logos_server.png' alt='Logos node.js y express.js' height='50px' width='283px'>
+                <a href="https://github.com/fjoglar/Proyecto-Quiz-MiriadaX" target="_blank"><img class="github" src='/images/logo_GitHub.png' alt='GitHub' height='50px'></a>
+            </footer>
+        </div>
+    </body>
+</html>
