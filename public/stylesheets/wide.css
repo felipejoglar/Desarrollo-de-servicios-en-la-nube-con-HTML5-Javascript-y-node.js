@@ -1,0 +1,19 @@
+h2 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+#contenedor {
+	background: #ECEFF1;
+	width: 80%;
+	border-radius: 5px;
+}
+#pantalla {
+    text-align: center;
+    padding: 5px;
+}
+#pantalla_texto::after {
+    content: "Wide Layout";
+    color: #607D8B;
+}

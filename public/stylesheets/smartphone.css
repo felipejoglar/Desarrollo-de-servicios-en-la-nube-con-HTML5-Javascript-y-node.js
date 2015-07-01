@@ -1,0 +1,23 @@
+body{
+	font-size: 16px;
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+#contenedor {
+	background: #ECEFF1;
+	width: 90%;
+	border-radius: 2px;
+}
+#pantalla {
+    text-align: center;
+    padding: 5px;
+}
+#pantalla_texto::after {
+    content: "Smartphone Layout";
+    color: #607D8B;
+}
+.logos {
+    height: 45px;
+}
