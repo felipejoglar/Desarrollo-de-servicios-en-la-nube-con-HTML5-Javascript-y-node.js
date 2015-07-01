@@ -1,8 +1,32 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@font-face {
+    font-family: 'fira';
+    src: url('FiraSansOT-Light.otf');
 }
 
-a {
-  color: #00B7FF;
+body{
+	background: #CFD8DC;
+	font-family: fira;
+	font-size: 14px;
+}
+header h1 {
+	font-size: 30px;
+	font-weight: bold;
+	border-bottom: 3px solid #B0BEC5;
+	padding-bottom: 3px;
+}
+footer {
+	text-align: center;
+	border-top: 3px solid #B0BEC5;
+	clear: both;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+#contenedor {
+	background: #ECEFF1;
+	width: 60%;
+	max-width: 1024px;
+	padding: 10px;
+	margin-left : auto;
+	margin-right : auto;
+	border-radius: 10px;
 }

@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+   <head>
+       <meta charset='utf-8'>
+       <title><%= title %></title>
+       <link rel='stylesheet' type='text/css' href='/stylesheets/style.css' />
+   </head>
+   <body>
+       <div id='contenedor'>
+           <header>
+               <h1>Bienvenido a <%= title %>.</h1>
+           </header>
+
+           <p>¡El portal donde podrá crear sus propios juegos!</p>
+
+           <footer>
+               <img src='/images/logos_server.png' alt='Logos node.js y express.js' height='50px' width='283px'>
+           </footer>
+       </div>
+   </body>
 </html>
