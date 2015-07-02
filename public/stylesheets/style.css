@@ -41,3 +41,13 @@ footer {
 .github {
     float: right;
 }
+div.autor {
+    padding-bottom: 10px;
+    overflow: auto;
+}
+.foto_autor {
+    float: left;
+    height: 120px;
+    margin-right: 10px;
+    border: 1px solid #B0BEC5;
+}
