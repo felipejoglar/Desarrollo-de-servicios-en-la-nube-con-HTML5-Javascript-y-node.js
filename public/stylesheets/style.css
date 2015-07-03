@@ -4,26 +4,27 @@
 }
 
 body{
-	background: #CFD8DC;
+	background: #607D8B;
 	font-family: fira;
 	font-size: 14px;
+    color: #212121;
 }
 header h1 {
 	font-size: 30px;
 	font-weight: bold;
-	border-bottom: 3px solid #B0BEC5;
+	border-bottom: 3px solid #607D8B;
 	padding-bottom: 3px;
 }
 footer {
 	text-align: center;
-	border-top: 3px solid #B0BEC5;
+	border-top: 3px solid #607D8B;
 	clear: both;
 	padding-top: 10px;
 	margin-top: 10px;
     overflow: auto;
 }
 #contenedor {
-	background: #ECEFF1;
+	background: #CFD8DC;
 	width: 80%;
 	max-width: 1024px;
 	padding: 10px;
@@ -39,6 +40,7 @@ footer {
     height: 50px;
 }
 .github {
+    height: 50px;
     float: right;
 }
 div.autor {
@@ -49,5 +51,5 @@ div.autor {
     float: left;
     height: 120px;
     margin-right: 10px;
-    border: 1px solid #B0BEC5;
+    border: 1px solid #607D8B;
 }
