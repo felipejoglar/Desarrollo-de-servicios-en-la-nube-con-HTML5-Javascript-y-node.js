@@ -9,13 +9,16 @@ nav {
 	width: 90%;
 	border-radius: 2px;
 }
+.button {
+	width: 90%;
+}
 #pantalla {
     text-align: center;
     padding: 5px;
 }
 #pantalla_texto::after {
     content: "Smartphone Layout";
-    color: #607D8B;
+    color: #CFD8DC;
 }
 .logos {
     height: 40px;
