@@ -23,6 +23,9 @@ footer {
 	margin-top: 10px;
     overflow: auto;
 }
+td {
+    padding: 10px 0px 0px 0px;
+}
 #contenedor {
 	background: #CFD8DC;
 	width: 80%;
@@ -52,4 +55,10 @@ div.autor {
     height: 120px;
     margin-right: 10px;
     border: 1px solid #607D8B;
+}
+a:visited {
+    color:  #3f51b5;
+}
+a:hover {
+    color: #607D8B;
 }
