@@ -8,6 +8,9 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Quiz MiriadaX' });
 });
 
+/* Autoload. */
+router.param( 'quizId', quizController.load);
+
 /* GET question and answer pages. */
 router.get('/quizes',                       quizController.index);
 router.get('/quizes/:quizId(\\d+)',         quizController.show);
