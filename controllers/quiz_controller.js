@@ -13,18 +13,30 @@ exports.load = function(req, res, next, quizId) {
     }).catch(function(error) { next(error);});
 };
 
-// GET /quizes
+// GET /quizes y /quizes?search=
 exports.index = function(req, res) {
-    models.Quiz.findAll().then(function(quizes) {
-        res.render('quizes/index', { quizes: quizes});
-    }).catch(function(error) { next(error);})
+    if (req.query.search) {
+        var search = '%' + req.query.search.split(' ').join('%') + '%';
+        models.Quiz.findAll({where: ["pregunta like ?", search], order: 'pregunta ASC'}).then(
+            function(quizes) {
+                res.render('quizes/index', { quizes: quizes});
+            }
+        ).catch(function(error) { next(error); });
+    } else {
+        models.Quiz.findAll().then(
+            function(quizes) {
+                res.render('quizes/index', { quizes: quizes});
+            }
+        ).catch(function(error) { next(error); });
+    }
 };
 
 // GET /quizes/:id
 exports.show = function(req, res) {
-    models.Quiz.find(req.params.quizId).then(function(quiz) {
-        res.render('quizes/show', { quiz: req.quiz});
-    })
+    models.Quiz.find(req.params.quizId).then(
+        function(quiz) {
+            res.render('quizes/show', { quiz: req.quiz});
+        })
 };
 
 // GET /quizes/:id/answer
