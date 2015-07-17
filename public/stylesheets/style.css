@@ -35,6 +35,17 @@ td {
 	margin-right : auto;
 	border-radius: 10px;
 }
+#errores {
+	width: 40%;
+	padding: 10px;
+	margin-left : auto;
+	margin-right : auto;
+    margin-top: 15px;
+	border-radius: 5px;
+    border: 1px solid #FF5722;
+    background-color: #FFCCBC;
+    color: #FF5722;
+}
 .respuesta{
     font-size: 16px;
 	font-weight: bold;
