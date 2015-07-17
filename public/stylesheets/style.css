@@ -56,6 +56,9 @@ div.autor {
     margin-right: 10px;
     border: 1px solid #607D8B;
 }
+.center {
+    text-align: center;
+}
 a {
     color:  #3f51b5;
     text-decoration: none;

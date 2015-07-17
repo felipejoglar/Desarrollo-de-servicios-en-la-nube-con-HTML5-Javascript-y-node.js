@@ -1,13 +1,14 @@
 <h2>Preguntas</h2>
 <form method="get" action="/quizes">
-    <p>
     Buscar pregunta:
     <input type="text" name="search" placeholder="Buscar">
     <input type="submit" value="Buscar">
-    </p>
 </form>
 <table>
 <% var i; for(i = 0; i < quizes.length; i++) { %>
     <tr><td><a href="quizes/<%= quizes[i].id %>"><%= quizes[i].pregunta %></a></td></tr>
 <% } %>
 </table>
+<div class="center">
+<a href="/quizes/new"><div class="button raised teal">CREAR PREGUNTA</div></a>
+</div>
