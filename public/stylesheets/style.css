@@ -72,6 +72,7 @@ input, button {
 }
 .editar {
     height: 12px;
+    vertical-align: middle;
 }
 div.autor {
     padding-bottom: 10px;
@@ -86,8 +87,10 @@ div.autor {
 .center {
     text-align: center;
 }
-.right {
+.celdaBoton {
     text-align: right;
+    white-space: nowrap;
+    width: 1px;
 }
 a {
     color:  #3f51b5;
