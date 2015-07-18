@@ -1,12 +1,20 @@
 <h2>Preguntas</h2>
-<form method="get" action="/quizes">
+<form class="center" method="get" action="/quizes">
     Buscar pregunta:
-    <input type="text" name="search" placeholder="Buscar">
+    <input type="text" name="search" placeholder="Buscar" size="40">
     <input type="submit" value="Buscar">
 </form>
 <table>
 <% var i; for(i = 0; i < quizes.length; i++) { %>
-    <tr><td><a href="quizes/<%= quizes[i].id %>"><%= quizes[i].pregunta %></a></td></tr>
+    <tr>
+        <td><a href="quizes/<%= quizes[i].id %>"><%= quizes[i].pregunta %></a></td>
+        <td class="right"><a href="quizes/<%= quizes[i].id %>/edit">
+            <button>
+                <img class="editar" src='/images/editar.png' alt='Editar'>
+                Editar
+            </button>
+        </a></td>
+    </tr>
 <% } %>
 </table>
 <div class="center">
