@@ -6,5 +6,16 @@
     <label for="preg">Respuesta: </label>
     <input type="text" id="preg" name="quiz[respuesta]" <% if (quiz.respuesta === "Respuesta") { %>placeholder="<% } else { %>value="<% } %><%= quiz.respuesta %>" size="40">
 </p>
+<p>
+    <label for="preg">Tema: </label>
+    <select id="tema" name="quiz[tema]">
+        <option value="">Seleccione una temática</option>
+        <option value="Otro" <% if(quiz.tema==="Otro"){ %> selected <% } %> >Otro</option>
+        <option value="Humanidades" <% if(quiz.tema==="Humanidades"){ %> selected <% } %> >Humanidades</option>
+        <option value="Ocio" <% if(quiz.tema==="Ocio"){ %> selected <% } %> >Ocio</option>
+        <option value="Ciencia" <% if(quiz.tema==="Ciencia"){ %> selected <% } %> >Ciencia</option>
+        <option value="Tecnología" <% if(quiz.tema==="Tecnología"){ %> selected <% } %> >Tecnología</option>
+    </select>
+</p>
 <a href="/quizes"><button type="button">Cancelar</button></a>
 <input type="submit" value="Guardar">
