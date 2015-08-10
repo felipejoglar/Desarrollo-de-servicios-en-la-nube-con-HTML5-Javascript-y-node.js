@@ -70,8 +70,22 @@ input, button, select {
     height: 50px;
     float: right;
 }
+.derecha {
+    float: right;
+}
 .editar {
     height: 12px;
+    vertical-align: middle;
+}
+.log {
+    height: 16px;
+    vertical-align: middle;
+}
+.login {
+    width: auto;
+}
+.user {
+    height: 25px;
     vertical-align: middle;
 }
 div.autor {

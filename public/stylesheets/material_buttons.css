@@ -23,12 +23,32 @@
     background-color: #4db6ac;
 }
 
+.button.green {
+    min-width: 80px;
+    height: 32px;
+    background-color: #4CAF50;
+}
+
+.button.green:hover {
+    background-color: #81c784;
+}
+
+.button.orange {
+    background-color: #ff5722;
+}
+
+.button.orange:hover {
+    background-color: #ff8a65;
+}
+
 .button.red {
+    min-width: 80px;
+    height: 32px;
     background-color: #ef5350;
 }
 
 .button.red:hover {
-    background-color: #ef9a9a;
+    background-color: #e57373;
 }
 
 .button.raised {

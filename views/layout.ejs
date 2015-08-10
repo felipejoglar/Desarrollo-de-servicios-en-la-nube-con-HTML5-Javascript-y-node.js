@@ -15,6 +15,17 @@
     <body>
         <div id='contenedor'>
             <header>
+                <%if(!session.user){%>
+                    <a href="/login"><div class="button raised green derecha"><img class="log" src='/images/login.png' alt='Login'> LOGIN</div></a>
+                <%}else{%>
+                    <span class="derecha">
+                        <img src='/images/user.png' class="user" alt='Login'>
+                        <span  style="font-size: 18px"><%=session.user.username%></span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/logout"><div class="button raised red"><img class="log" src='/images/logout.png' alt='Login'> LOGOUT</div></a>
+                    </span>
+                <%}%>
+
                 <h1>Quiz MiriadaX: el juego de las preguntas.</h1>
             </header>
 

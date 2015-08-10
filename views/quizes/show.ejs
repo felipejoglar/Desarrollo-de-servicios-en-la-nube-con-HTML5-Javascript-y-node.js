@@ -2,10 +2,9 @@
 <form method="get" action="/quizes/<%= quiz.id  %>/answer">
     <p>Pregunta: <%= quiz.pregunta %></p>
     <input type="text" name="respuesta" placeholder="Responda aquí">
-    <input type="submit" value="Enviar">
+    <button type="submit"><img class="editar" src='/images/enviar.png' alt='Enviar'> Enviar</button>
+    <a href="/quizes"><button type="button"><img class="editar" src='/images/cancelar.png' alt='Cancelar'> Cancelar</button></a>
 </form>
-
-<a href="/quizes"><button type="button">Cancelar</button></a>
 
 <p><a href="/quizes/<%= quiz.id %>/comments/new"><button><img class="editar" src='/images/comentario.png' alt='Comentario'> Nuevo comentario</button></a></p>
 
