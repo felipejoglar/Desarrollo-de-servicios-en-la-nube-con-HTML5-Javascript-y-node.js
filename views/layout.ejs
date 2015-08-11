@@ -13,6 +13,8 @@
             href='/stylesheets/smartphone.css' />
     </head>
     <body>
+        <% include _info.ejs %>
+        
         <div id='contenedor'>
             <header>
                 <span class="derecha">
@@ -24,6 +26,7 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="/logout"><div class="button raised red"><img class="log" src='/images/logout.png' alt='Login'> LOGOUT</div></a>
                 <%}%>
+                <a href="javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><div class="button raised info"><img class="log" src='/images/info.png' alt='Info'></div></a>
                 </span>
                 <h1>Quiz MiriadaX: el juego de las preguntas.</h1>
             </header>
