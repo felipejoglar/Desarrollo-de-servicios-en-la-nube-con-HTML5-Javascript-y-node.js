@@ -84,6 +84,9 @@ input, button, select {
 .login {
     width: auto;
 }
+.stats {
+    width: 40%;
+}
 .user {
     height: 25px;
     vertical-align: middle;
