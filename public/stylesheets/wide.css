@@ -15,3 +15,23 @@ nav {
     content: "Wide Layout";
     color: #CFD8DC;
 }
+.white_content {
+    top: 5%;
+    left: 10%;
+    right: 10%;
+}
+h1 {
+    clear: both;
+}
+table {
+    width: 90%;
+}
+.comentario {
+    width: 80%;
+}
+#errores {
+    width: 75%;
+}
+.stats {
+    width: 80%;
+}

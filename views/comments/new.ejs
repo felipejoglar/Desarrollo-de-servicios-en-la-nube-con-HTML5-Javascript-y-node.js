@@ -2,7 +2,7 @@
 
 <form method="post" action="/quizes/<%=quizid%>/comments/" >
     Añadir comentario:
-    <input type="text" id="comment" name="comment[texto]" placeholder="Añade un comentario" size="60"/>
+    <input class="comentario" type="text" id="comment" name="comment[texto]" placeholder="Añade un comentario"/>
     <p>
         <a href="/quizes/<%=quizid%>"><button type="button"><img class="editar" src='/images/cancelar.png' alt='Cancelar'> Cancelar</button></a>
         <button type="submit"><img class="editar" src='/images/enviar.png' alt='Enviar'> Enviar comentario</button>

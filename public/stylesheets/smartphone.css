@@ -26,3 +26,34 @@ nav {
 .github {
     height: 40px;
 }
+.white_content {
+    top: 5%;
+    left: 5%;
+    right: 5%;
+	text-align: justify;
+}
+.button.info {
+	max-width: 40px;
+}
+.button.green {
+    max-width: 60%;
+}
+.button.red {
+    max-width: 40%;
+}
+.derecha {
+	float: none;
+}
+table {
+    width: 95%;
+	text-align: left;
+}
+.comentario {
+    width: 95%;
+}
+#errores {
+    width: 90%;
+}
+.stats {
+    width: 95%;
+}

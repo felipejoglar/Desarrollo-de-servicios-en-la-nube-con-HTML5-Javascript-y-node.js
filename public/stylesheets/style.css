@@ -85,7 +85,7 @@ input, button, select {
     width: auto;
 }
 .stats {
-    width: 40%;
+    width: 60%;
 }
 .user {
     height: 25px;
@@ -155,4 +155,8 @@ a:hover {
   font-style: italic;
   font-size: 10px;
   color: #616161;
+}
+
+.comentario {
+    width: 500px;
 }
