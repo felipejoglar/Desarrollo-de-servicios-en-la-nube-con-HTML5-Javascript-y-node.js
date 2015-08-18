@@ -4,7 +4,7 @@
 
 En el curso se enseñan también algunos conceptos básicos de ingeniería software, tales como estructura de proyectos, empaquetado de aplicaciones, gestión de versiones, etc. Este curso es el segundo del programa "Diseño de servicios en la nube para acceso móvil y multi-dispositivo con HTML5" impulsado y patrocinado por Red.es, CENATIC, Universia, Telefónica Digital y TLS. El programa consta de 5 cursos, que se irán incorporando progresivamente en Miríada X. [Página del curso](https://www.miriadax.net/web/javascript-node-js)
 
-####Proyecto [Quiz MiriadaX](https://quizmiriadax-felipe.herokuapp.com/).
+####Proyecto [Quiz MiriadaX](https://quizmiriadax-fjoglar.herokuapp.com/).
 
 - __Proyecto Quiz__:
 	- Paso 1: Esqueleto del proyecto con express-generator.
